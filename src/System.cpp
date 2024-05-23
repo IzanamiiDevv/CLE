@@ -1,3 +1,4 @@
+//Global Header
 #include <iostream>
 #include <memory>
 #include <stdexcept>
@@ -20,3 +21,4 @@ namespace System {
         }
         return result;
     }
+}
