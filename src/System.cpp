@@ -4,6 +4,9 @@
 #include <string>
 #include <array>
 
+//Local Header
+#include "./../includes/System.h"
+
 namespace System {
     std::string exec(const char* cmd) {
         std::array<char, 128> buffer;
